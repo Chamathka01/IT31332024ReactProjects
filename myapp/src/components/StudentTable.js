@@ -1,11 +1,10 @@
-import {students} from '../StudentDB';
-export default function StudentTable(prosps){
+import '..assests/css/compo.css';
+export default function StudentTable(props){
     return(
-        <div>
-
-        </div>
-    );
-    <table>
+        <div className="outerDiv">
+            <div className="leftDiv">
+            <table>
+        <thread>
         <tr>
             <td>First name</td>
             <td>Last name</td>
@@ -26,5 +25,11 @@ export default function StudentTable(prosps){
              <td>{student.profilePic}</td>
              </tr>
         ))}
+        </thread>
     </table>
+            </div>
+
+        </div>
+    );
+    
 }
