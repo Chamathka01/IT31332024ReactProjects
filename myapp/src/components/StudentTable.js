@@ -36,7 +36,7 @@ export default function StudentTable(props){
        
     </table>
     </div>
-            <div classNmae='rightdev'>
+            <div className='rightdev'>
                 <Profile stu={stu}/>
             </div>
 
