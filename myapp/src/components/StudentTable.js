@@ -22,8 +22,8 @@ export default function StudentTable(props){
                     <td>{student.course}</td>  
                     <td>{student.gender}</td>
                     <td>{student.address.country}</td>
-                    <td>{student.skills}</td>
-                    <td>{student.profilePic}</td> 
+                    <td><button>view</button></td>
+                     
                 </tr>
             )
            } 
