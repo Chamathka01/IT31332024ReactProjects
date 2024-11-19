@@ -1,4 +1,5 @@
 export default function Profile(props){
+    console.log(props.stu)
     return(
         <>
         <table>
