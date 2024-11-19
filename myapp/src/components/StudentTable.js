@@ -3,7 +3,7 @@ export default function StudentTable(props){
     return(
         <div className="outerDiv">
             <div className="leftDiv">
-            <table>
+            <table border="1">
         <thread>
         <tr>
             <td>First name</td>
@@ -18,8 +18,7 @@ export default function StudentTable(props){
             props.students.map( student=>
                 <tr>
                     <td>{student.firstName}</td>
-                    <td>{student.lastName}</td>
-                    <td>{student.age}</td>  
+                    <td>{student.lastName}</td>  
                     <td>{student.course}</td>  
                     <td>{student.gender}</td>
                     <td>{student.address.country}</td>
