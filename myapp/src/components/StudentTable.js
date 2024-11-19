@@ -1,3 +1,4 @@
+import {students} from '../StudentDB';
 export default function StudentTable(){
     <table>
         <tr>
