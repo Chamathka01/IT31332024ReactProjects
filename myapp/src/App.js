@@ -18,8 +18,7 @@ function App() {
       </tbody>
      </table>
     </div>
-    </Student>
-    </StudentTable/>
+
   );
 }
 
