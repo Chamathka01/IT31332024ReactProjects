@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import  students  from './StudentDB';
-import  StudentTable from './StudentDB';
+import  {students}  from '.data/StudentDb';
+import  StudentTable from '.components/StudentTable';
 import {useState} from 'react';
 
 function App() {
@@ -12,7 +12,9 @@ function App() {
      <table>
       <tbody>
        <tr>
-        <td></td>
+        <td>
+          <studentTable students={students}/>
+        </td>
         </tr> 
       </tbody>
      </table>

@@ -1,5 +1,10 @@
 import {students} from '../StudentDB';
-export default function StudentTable(){
+export default function StudentTable(prosps){
+    return(
+        <div>
+
+        </div>
+    );
     <table>
         <tr>
             <td>First name</td>
