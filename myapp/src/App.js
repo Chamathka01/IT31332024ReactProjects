@@ -1,6 +1,6 @@
 import './App.css';
-import  {students}  from '.data/StudentsDb';
-import  StudentTable from '.components/StudentTable';
+import  {students}  from './data/StudentsDb';
+import  StudentTable from './components/StudentTable';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <tbody>
        <tr>
         <td>
-          <studentTable students={students}/>
+          <StudentTable students={students}/>
         </td>
         </tr> 
       </tbody>
